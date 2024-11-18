@@ -54,8 +54,10 @@
 }
 
 .card-img-top {
-  width: 100%;
-  height: auto;
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 10px;
 }
 
 .card-body {
@@ -77,13 +79,25 @@
 
 .btn-primary {
   text-decoration: none;
-  padding: 10px 15px;
-  background-color: #007bff;
+  padding: 7px 10px;
+  background-color: #090c0f;
   color: white;
   border-radius: 4px;
+  margin-top: 25px;
   transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
-  background-color: #0056b3;
+  background-color: #84878a;
+}
+.fav_div{
+  display: flex;
+  justify-content: space-between;
+}
+.rating_stars
+{
+  margin-bottom: 15px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
